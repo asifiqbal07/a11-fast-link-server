@@ -12,11 +12,25 @@ app.use(express.json());
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.u9ujzex.mongodb.net/?retryWrites=true&w=majority`;
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
-client.connect(err => {
-    const collection = client.db("test").collection("devices");
-    // perform actions on the collection object
-    client.close();
-});
+
+async function run() {
+    try {
+        const packageCollection = client.db('fastLink').collection('packages');
+
+        app.get('/packages', async (req, res) => {
+            const query = {}
+            const cursor = packageCollection.find(query);
+            const packages = await cursor.toArray();
+            res.send(packages);
+        })
+
+    }
+    finally {
+
+    }
+}
+
+run().catch(e => console.error(e));
 
 
 app.get('/', (req, res) => {
