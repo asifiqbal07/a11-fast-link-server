@@ -14,6 +14,7 @@ const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@clu
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 async function run() {
+
     try {
         const packageCollection = client.db('fastLink').collection('packages');
 
@@ -22,7 +23,7 @@ async function run() {
             const cursor = packageCollection.find(query);
             const packages = await cursor.toArray();
             res.send(packages);
-        })
+        });
 
         app.get('/packages/:id', async (req, res) => {
             const id = req.params.id;
@@ -30,21 +31,20 @@ async function run() {
             const package = await packageCollection.findOne(query);
             res.send(package);
         });
-
-
     }
+
     finally {
 
     }
+
 }
 
-run().catch(e => console.error(e));
-
+run().catch(err => console.error(err));
 
 app.get('/', (req, res) => {
     res.send('Fast Link server is running')
 })
 
 app.listen(port, () => {
-    console.log(`Fast Link server is running on${port}`);
+    console.log(`Fast Link server is running on ${port}`);
 })

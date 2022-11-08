@@ -1,0 +1,140 @@
+[
+    {
+        "title": "Cheetah",
+        "rating": 5,
+        "price": 1000,
+        "speed": "10",
+        "image_url": "https://i.ibb.co/sw0z75d/1.jpg",
+        "details": "This is my beginning package. In this package, you will get multiple advantages. And it's highly recommended for budget-friendly customers. It's the best package for doing daily internet tasks.",
+        "features": {
+            "BDIX": "100",
+            "social": "4K Youtube and Facebook Stream",
+            "ipv": "IPv6 Public IP Only"
+        },
+        "review_one": {
+            "review": "Excellent customer service. (EN) was very friendly, patient and helpful in helping us find what we were looking for.",
+            "name": "Barry Tone",
+            "image": "https://i.ibb.co/wK6qsr0/web.jpg"
+        },
+        "review_two": {
+            "review": "Great customer service! The man I spoke with was very helpful in answering questions as well as helping in finding the best package for my office.",
+            "name": "Elon Gated",
+            "image": "https://i.ibb.co/X71xK2G/8.jpg"
+        }
+    },
+    {
+        "title": "Surfer Plus",
+        "rating": 4.8,
+        "price": 1500,
+        "speed": "15",
+        "image_url": "https://i.ibb.co/z2ZzMRh/2.jpg",
+        "details": "This is my one of the best package for multiple users. In this package, you will also get multiple advantages. And it's highly recommended for my customers who has multiple member in their houses. It's also the best package for doing daily internet tasks.",
+        "features": {
+            "BDIX": "120",
+            "social": "4K Youtube and Facebook Stream",
+            "ipv": "IPv6 Public IP Only"
+        },
+        "review_one": {
+            "review": "Excellent customer service. (EN) was very friendly, patient and helpful in helping us find what we were looking for.",
+            "name": "Barry Tone",
+            "image": "https://i.ibb.co/wK6qsr0/web.jpg"
+        },
+        "review_two": {
+            "review": "Great customer service! The man I spoke with was very helpful in answering questions as well as helping in finding the best package for my office.",
+            "name": "Elon Gated",
+            "image": "https://i.ibb.co/X71xK2G/8.jpg"
+        }
+    },
+    {
+        "title": "Freelancer",
+        "rating": 5,
+        "price": 2000,
+        "speed": "20",
+        "image_url": "https://i.ibb.co/3pJ8K8P/3.jpg",
+        "details": "This is the Freelancer package. It's especially recommended for freelancers. They will get better speed on freelancing sites and on uploading bigger files. And I'm proving individual IP address in this package.",
+        "features": {
+            "BDIX": "140",
+            "social": "4K Youtube and Facebook Stream",
+            "ipv": "Both IPv4 and IPv6 Public IP"
+        },
+        "review_one": {
+            "review": "Excellent customer service. (EN) was very friendly, patient and helpful in helping us find what we were looking for.",
+            "name": "Barry Tone",
+            "image": "https://i.ibb.co/wK6qsr0/web.jpg"
+        },
+        "review_two": {
+            "review": "Great customer service! The man I spoke with was very helpful in answering questions as well as helping in finding the best package for my office.",
+            "name": "Elon Gated",
+            "image": "https://i.ibb.co/X71xK2G/8.jpg"
+        }
+    },
+    {
+        "title": "Gamers",
+        "rating": 4.9,
+        "price": 2500,
+        "speed": "25",
+        "image_url": "https://i.ibb.co/F5rZP5v/4.jpg",
+        "details": "This is the special package for the gamers. They will get higher speeds on gaming and streaming. No packet lose issues. And I will always try to provide stable ping for my special clients. And Buffer less streaming is also supported ",
+        "features": {
+            "BDIX": "160",
+            "social": "4K Youtube and Facebook Stream",
+            "ipv": "Both IPv4 and IPv6 Public IP"
+        },
+        "review_one": {
+            "review": "Excellent customer service. (EN) was very friendly, patient and helpful in helping us find what we were looking for.",
+            "name": "Barry Tone",
+            "image": "https://i.ibb.co/wK6qsr0/web.jpg"
+        },
+        "review_two": {
+            "review": "Great customer service! The man I spoke with was very helpful in answering questions as well as helping in finding the best package for my office.",
+            "name": "Elon Gated",
+            "image": "https://i.ibb.co/X71xK2G/8.jpg"
+        }
+    },
+    {
+        "title": "Corporate",
+        "rating": 4.7,
+        "price": 3000,
+        "speed": "30",
+        "image_url": "https://i.ibb.co/jL2ZqFP/5.jpg",
+        "details": "This is the special package for Shops or Offices. They will get higher speeds and secure data. No packet lose issues. And I will always try to provide stable internet for our special clients. And no link down issues",
+        "features": {
+            "BDIX": "180",
+            "social": "4K Youtube and Facebook Stream",
+            "ipv": "Both IPv4 and IPv6 Public IP"
+        },
+        "review_one": {
+            "review": "Excellent customer service. (EN) was very friendly, patient and helpful in helping us find what we were looking for.",
+            "name": "Barry Tone",
+            "image": "https://i.ibb.co/wK6qsr0/web.jpg"
+        },
+        "review_two": {
+            "review": "Great customer service! The man I spoke with was very helpful in answering questions as well as helping in finding the best package for my office.",
+            "name": "Elon Gated",
+            "image": "https://i.ibb.co/X71xK2G/8.jpg"
+        }
+    },
+    {
+        "title": "Corporate Plus",
+        "rating": 5,
+        "price": 5000,
+        "speed": "50",
+        "image_url": "https://i.ibb.co/8grsbpC/6.jpg",
+        "details": "This is the best and VIP package for Offices. They will get higher speeds and best secure data. No issues and 24 hour VIP customers support. And we I always try to provide stable internet for my special clients. And no link down issues",
+        "features": {
+            "BDIX": "200",
+            "social": "4K Youtube and Facebook Stream",
+            "ipv": "Both IPv4 and IPv6 Public IP"
+        },
+        "review_one": {
+            "review": "Excellent customer service. (EN) was very friendly, patient and helpful in helping us find what we were looking for.",
+            "name": "Barry Tone",
+            "image": "https://i.ibb.co/wK6qsr0/web.jpg"
+        },
+        "review_two": {
+            "review": "Great customer service! The man I spoke with was very helpful in answering questions as well as helping in finding the best package for my office.",
+            "name": "Elon Gated",
+            "image": "https://i.ibb.co/X71xK2G/8.jpg"
+        }
+    }
+]
