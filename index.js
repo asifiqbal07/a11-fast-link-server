@@ -17,6 +17,7 @@ async function run() {
 
     try {
         const packageCollection = client.db('fastLink').collection('packages');
+        const reviewCollection = client.db('fastLink').collection('reviews');
 
         app.get('/packages', async (req, res) => {
             const query = {}
@@ -31,6 +32,31 @@ async function run() {
             const package = await packageCollection.findOne(query);
             res.send(package);
         });
+
+        // Orders api
+
+        app.get('/reviews', async (req, res) => {
+            let query = {};
+            if(req.query.email){
+                query = {
+                    email: req.query.email
+                }
+            }
+            
+            const cursor = reviewCollection.find(query);
+            const reviews = await cursor.toArray();
+            res.send(reviews);
+        })
+
+        app.post('/reviews', async (req, res) => {
+            const review = req.body;
+            const result = await reviewCollection.insertOne(review);
+            res.send(result);
+        })
+
+
+
+
     }
 
     finally {
