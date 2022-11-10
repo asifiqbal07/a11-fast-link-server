@@ -33,6 +33,12 @@ async function run() {
             res.send(package);
         });
 
+        app.post('/packages', async (req, res) => {
+            const package = req.body;
+            const result = await packageCollection.insertOne(package);
+            res.send(result);
+        });
+
         // Review api
 
         app.get('/reviews', async (req, res) => {
